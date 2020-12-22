@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+  </head>
+  <body>
+    <div id='userList'>  
+        </div>
+        <div class='background'>
+        </div>
+        <div class='background'>
+        </div>
+    
+      <div id='wrapper'>
+        <div id='container'>
+
+          <div id='header'>
+              <h1>ITP THESIS BINGO!!!!</h1>
+              Your name: <input type='text' id='nameInput' value='Anonymous User' />
+          </div>
+          <br />
+          <div id='bingochart'>
+              <table id='table'>
+              </table>
+            <br />
+            <div id='controls'>
+              <button id='newGame'>
+                New Game
+              </button>
+            </div>
+          </div>
+          
+          <div id='victory' hidden>
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/qy7cISueWDk?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+          </div>
+        </div>
+        <div>
+          
+          <p>
+            created by <a href='https://squidgetx.github.io' target='_blank'>sylvan</a>
+          </p>
+        </div>
+        
+
+      </div>
+
+  </body>
+</html>
